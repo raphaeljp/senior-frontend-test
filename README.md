@@ -1,47 +1,54 @@
-![Dog and Pony Studios](https://www.dogandponystudios.com/app/themes/dps/assets/public/images/logo-fbe89868bd.svg)
+# Dog And Pony Studios - Senior Frontend Developer Test
 
-# Senior Frontend Developer Test
+This is a test project for the Senior Frontend Developer role from Dog And Pony Studios.
 
-**Welcome to our Senior Frontend Developer Test**
+## Summary
 
-This test consists of a series of tasks which may take between 2–4 hours to complete, depending on your experience level. The primary purpose of this test is to infer your “logical thinking” and “problem-solving” skills.
+- [Prerequisites](#prerequisites)
+- [Installing](#installing)
+- [Built With](#built-with)
+- [Authors](#authors)
 
+### Prerequisites
 
-## Scenario
+In order to correctly run this software in your machine, you need to have installed:
 
-To recreate the design and functionality of a generic office-listings page. Please navigate through the [interactive prototype](https://www.figma.com/proto/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=2253%3A2129&viewport=-4357%2C528%2C0.5&scaling=min-zoom) to better understand the scope and requirements. 
+    Node.js 12+
 
+### Installing
 
-## Tasks
+Follow this steps to install and run the project.
 
-1. Fork this repository (to jump-start your test)
-1. Recreate [the design](https://www.figma.com/file/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=2253%3A2129) using [Vue.js](https://vuejs.org/) and [TailwindCSS](https://tailwindcss.com/)
-1. Populate the office listings from a datasource (JSON or hard-coded array)
-1. Recreate the following interactivity
-    1. Toggle open/close office cards
-    1. “Add new location” (add new office to list)
-    1. “Edit office” (edit and save office data)
-    1. While adding or editing an office, the “Save” button should be disabled until all fields have been validated
-    1. “Delete office” (remove office from list)
+Clone this repo:
 
+    git clone https://github.com/raphaeljp/senior-frontend-test.git
 
-## Deadline
+Navigate into the repo directory:
 
-Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. If you'd like to submit a _private repository_, please add [Caio](https://github.com/CaioCosta) and [Bill](https://github.com/billaddison) with view access to the private repository. 
+    cd senior-frontend-test
 
-The deadline for submissions is **Monday, 22th of February**. _Submissions will not be accepted after this date._ Applications will be evaluated in order of receipt. For applicants who meet our requirements, interviews will be conducted as soon as the test has been evaluated. Note we have a limit of 3 positions available. 
+Install the project dependencies:
 
+    npm i
 
-## Tips
+Run the server:
 
-- Keep it simple
-- Data persistence is not required
-- Please ensure your readme file contains valid and simple instructions
-- Please use placeholder data only (i.e. do not use real or identifiable information)
-- Feel free to validate fields according to your own validation logic
-- Verify the full functionality of your application prior to submission
+    npm run dev
 
+Open your browser in the localhost domain:
 
-## Submissions
+    http://localhost:3000/
 
-[Submit your test here](https://forms.gle/RU1EPST4j9Dwg2oG6)
+Now you have a working copy of the software up and running in your local machine.
+
+## Built With
+
+- [Nuxt.js](https://nuxtjs.org/) - Frontend Framework with SSR by Vue.js
+- [Vuex](https://github.com/vuejs/vuex) - Centralized State Management for Vue.js
+- [v-mask](https://github.com/probil/v-mask) - Tiny input mask library for Vue.js
+- [Vuelidate](https://vuelidate.js.org/) - Simple, lightweight model-based validation for Vue.js
+- [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
+
+## Authors
+
+- **Raphael Pereira** - [raphaeljp](https://github.com/raphaeljp)
