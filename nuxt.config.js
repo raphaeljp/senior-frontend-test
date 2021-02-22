@@ -1,10 +1,5 @@
-
 export default {
 	mode: 'universal',
-
-	/*
-	 * Headers of the page
-	 */
 	head: {
 		title: process.env.npm_package_name || '',
 		meta: [
@@ -16,32 +11,15 @@ export default {
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
 		]
 	},
-
-	/*
-	 * Plugins to load before mounting the App
-	 */
-	plugins: [],
-
-	/*
-	 * Nuxt.js dev-modules
-	 */
+	plugins: [
+		'~/plugins/v-mask.js',
+		{ src: '~/plugins/vuelidate.js', mode: 'client' },
+	],
 	buildModules: [
-		// Doc: https://github.com/nuxt-community/nuxt-tailwindcss
 		'@nuxtjs/tailwindcss'
 	],
-
-	/*
-	 * Nuxt.js modules
-	 */
 	modules: [],
-
-	/*
-	 * Build configuration
-	 */
 	build: {
-		/*
-		 * You can extend webpack config here
-		 */
 		extend (config, ctx) {
 		}
 	}

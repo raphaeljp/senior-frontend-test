@@ -1,5 +1,8 @@
 # Frontend Dependencies
 node_modules
 
+# Folders
+.nuxt
+
 # IDE
 .idea
